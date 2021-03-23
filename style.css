@@ -70,7 +70,9 @@ h1 {
 }
 
 .pf:hover {
-  opacity: .7;
+  background: #f4f3ee;
+  box-sizing: border-box;
+  border: 4px solid #7587bf;
 }
 
 #footer {
