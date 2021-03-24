@@ -27,6 +27,10 @@ body {
   margin-bottom: 10px;
   font-size: 32px;
   border-bottom: 4px solid #f4f3ee;
+
+  position: fixed;
+  top: 0px;
+  width: 100%;
 }
 
 a {
@@ -80,4 +84,8 @@ h1 {
   padding-top: 10px;
   padding-bottom: 10px;
   border-top: 4px solid #f4f3ee;
+
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
