@@ -1,0 +1,132 @@
+html, body, #main {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Sulphur Point', sans-serif;
+  background-color: #101010;
+  color: #f4f3ee;
+}
+
+#main {
+  width: 100vw;
+}
+
+#banner, #footer {
+  font-family: 'Yatra One', cursive;
+  text-align: center;
+  background-color: #101010;
+  color: #f4f3ee;
+}
+
+#banner {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  border-bottom: 4px solid #f4f3ee;
+
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
+
+a {
+  color: #f4f3ee;
+}
+
+.page:hover {
+  color: #7587bf;
+}
+
+.page:link {
+  text-decoration: none;
+}
+
+#active {
+  color: #7587bf;
+}
+
+#desc {
+  position: relative;
+  top: 60px;
+  margin-bottom: 180px;
+  text-align: center;
+  letter-spacing: 1px;
+  z-index: 0;
+}
+
+h1 {
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+#pf {
+  box-sizing: border-box;
+  object-fit: contain;
+  width: 400px;
+  height: 400px;
+}
+
+#profile {
+  width: 400px;
+  height: 400px;
+}
+
+
+@media only screen and (min-width: 480px) {
+  #content {
+    display:  block;
+  }
+
+  #profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #bio {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    width: 400px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #content {
+    display: flex;
+  }
+
+  #profile {
+    position: relative;
+    left: 3em;
+    top: 16px;
+  }
+
+  #bio {
+    text-align: left;
+    position: relative;
+    right: 3em;
+    margin-top: 0px;
+    font-size: 16px;
+  }
+}
+
+
+#footer {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 4px solid #f4f3ee;
+
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
